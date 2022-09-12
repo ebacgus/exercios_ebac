@@ -13,14 +13,10 @@
 
             Cenário: Seleções de cor, tamanho e quantidade devem ser obrigatórios
             Quando eu selecionar a cor "vermelho", tamanho "M"
-            E a quantidade "0"
+            E deixar de selecionar  a quantidade "6"
             Então deve exibir a mensagem de alerta "campo obrigatório"
-
-            Cenário: Deve permitir apenas 10 produtos por venda
-            Quando eu selecionar a quantidade "18"
-            E colocar no carrinho "comprar"
-            Então deve exibir uma mensagem de alerta "quantidade invalida"
-
+          
+       
             Cenário: Quando eu clicar no botão "limpar" deve voltar o estado original
             Quando eu selecionar o tamanho "G"
             E clicar no botão "limpar"
