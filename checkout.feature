@@ -18,6 +18,6 @@ Então deve ixibir um alerta "erro"
 Cenário: Ao tentar cadastrar com campos vazios, deve exibir uma mensagem de alerta 
 Dado que eu cadastre meu produto
 Quando eu preencher o campo cidade "São Paulo"
-E deixar preencher CEP "08490-330"
+E deixar de preencher o CEP "08490-330"
 Então deve exebir uma mensagem de alerta "campo vazio "
 
