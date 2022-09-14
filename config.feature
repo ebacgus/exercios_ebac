@@ -20,7 +20,7 @@
             Cenário: Quando eu clicar no botão "limpar" deve voltar o estado original
             Quando eu selecionar o "tamanho"
             E clicar no botão "limpar"
-            Então deve voltar ao inicio do cadastro 
+            Então os campo deve ser "resetados" 
 
             Esquema do Cenário: Deve permitir apenas 10 peodutos por venda
             Quando eu selecionar <quantidade>
