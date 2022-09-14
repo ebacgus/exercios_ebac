@@ -20,7 +20,7 @@
             Cenário: Quando eu clicar no botão "limpar" deve voltar o estado original
             Quando eu selecionar o "tamanho"
             E clicar no botão "limpar"
-            Então deve exibir a mensagem de alerta "selecionar tamanho"
+            Então deve voltar ao inicio do cadastro 
 
             Esquema do Cenário: Deve permitir apenas 10 peodutos por venda
             Quando eu selecionar <quantidade>
