@@ -29,6 +29,6 @@
 
             Exemplos:
 
-            | quantidade | carrinho | mensagem            |
-            | 17         | comprar  | quantidade invalida |
-            | 8          | comprar  | quantidade válida   |
+            | quantidade | mensagem            |
+            | 17         | quantidade invalida |
+            | 8          | quantidade válida   |
