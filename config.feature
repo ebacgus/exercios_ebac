@@ -12,13 +12,13 @@
 
 
             Cenário: Seleções de cor, tamanho e quantidade devem ser obrigatórios
-            Quando eu selecionar a cor "vermelho", tamanho "M"
-            E deixar de selecionar  a quantidade "6"
+            Quando eu selecionar a "cor", "tamanho"
+            E deixar de selecionar  a "quantidade"
             Então deve exibir a mensagem de alerta "campo obrigatório"
           
        
             Cenário: Quando eu clicar no botão "limpar" deve voltar o estado original
-            Quando eu selecionar o tamanho "G"
+            Quando eu selecionar o "tamanho"
             E clicar no botão "limpar"
             Então deve exibir a mensagem de alerta "selecionar tamanho"
 
